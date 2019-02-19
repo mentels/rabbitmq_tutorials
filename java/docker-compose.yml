@@ -1,0 +1,13 @@
+version: '3.5'
+
+services:
+
+  rabbit:
+    container_name: rmq-tutorials
+    image: rabbitmq:3.7-management
+    hostname: rmq1
+    ports:
+      - 5672:5672
+      - 15672:15672
+    environment:
+      - 'RABBITMQ_ERLANG_COOKIE=rabbit'

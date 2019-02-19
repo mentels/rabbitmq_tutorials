@@ -1,0 +1,4 @@
+{
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "java.dependency.packagePresentation": "hierarchical"
+}

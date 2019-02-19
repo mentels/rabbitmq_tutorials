@@ -1,0 +1,48 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "pubsub/EmitLog",
+            "request": "launch",
+            "mainClass": "pubsub.EmitLog",
+            "projectName": "jtutorials",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+        {
+            "type": "java",
+            "name": "pubsub/ReceiveLogs",
+            "request": "launch",
+            "mainClass": "pubsub/ReceiveLogs",
+            "projectName": "jtutorials"
+        },
+        {
+            "type": "java",
+            "name": "work_queue/NewTask",
+            "request": "launch",
+            "mainClass": "work_queue.NewTask",
+            "projectName": "jtutorials",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+        {
+            "type": "java",
+            "name": "work_queue/Worker",
+            "request": "launch",
+            "mainClass": "work_queue.Worker",
+            "projectName": "jtutorials"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Receive",
+            "request": "launch",
+            "mainClass": "hello_world.Receive",
+            "projectName": "jtutorials"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Send",
+            "request": "launch",
+            "mainClass": "hello_world.Send",
+            "projectName": "jtutorials"
+        }
+    ]
+}
